@@ -1,0 +1,157 @@
+body {
+  font-family:  'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url("new-bg-3.jpg");
+
+  background-position: center center;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+
+}
+
+.box {
+  background: #fff;
+  opacity: 0.95;
+  border: #ccc 1px solid;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover {
+  opacity: 1;
+}
+
+.box a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  padding: 20px;
+}
+
+.box a:hover {
+  color: #555;
+}
+
+form {
+  background: #fff;
+  opacity: 0.95;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input,
+textarea {
+  width: 99%;
+  padding: 10px;
+  margin: 5px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.menu,
+.reviews {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li,
+.reviews li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-header .username {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.review-header .rating {
+  background-color: #ffd700;
+  color: #111;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.review-content {
+  font-size: 1em;
+  color: #666;
+}
+
+.back-button {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

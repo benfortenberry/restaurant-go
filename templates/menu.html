@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <title>Restaurant Home - Menu</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Menu</h1>
+        <ul class="menu">
+            {{range .}}
+                <li><strong>{{.Name}}</strong> - {{.Price}}</li>
+            {{end}}
+        </ul>
+        <a href='/' class='back-button'>Back to Home</a>
+    </div>
+</body>
+</html>
